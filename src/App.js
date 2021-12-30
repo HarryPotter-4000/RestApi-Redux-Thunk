@@ -16,9 +16,9 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/adduser" element={ <AddUser title='Add Users'/> } />
-          <Route path="/users" element={<Users title='Users' />} />
-          <Route path="/" element={ <Home title='Home Page'/> } />
+          <Route path="/adduser/" element={ <AddUser title='Add Users'/> } />
+          <Route path="/users/" element={<Users title='Users' />} />
+          <Route path="/RestApi-Redux-Thunk/" element={ <Home title='Home Page'/> } />
         </Routes>
       </Router>
     </div>

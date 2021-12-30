@@ -55,7 +55,6 @@ export default function CreateUser() {
         value={avatar}
         onChange={(e) => setAvatar(e.target.value)}
       />
-
       <button className={styles.button}
         type="submit" onClick={onCreateUser}>
         Create
