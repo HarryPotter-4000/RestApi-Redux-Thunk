@@ -5,7 +5,8 @@ import headerStyles from "./Header.module.css"
 function Header() {
   return (
     <div className={headerStyles.navigation}>
-      <ul className={ headerStyles.list }>
+      <ul className={headerStyles.list}>
+        <li><Link to='/'>Home</Link></li>
         <li><Link to='/users'>Users</Link></li>
         <li><Link to='/adduser'>Add Users</Link></li>
         {/* <li><Link to='/tweets'>Tweets</Link></li>
