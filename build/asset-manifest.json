@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/RestApi-Redux-Thunk/static/css/main.1a784be9.css",
-    "main.js": "/RestApi-Redux-Thunk/static/js/main.e2bf694f.js",
-    "index.html": "/RestApi-Redux-Thunk/index.html",
-    "main.1a784be9.css.map": "/RestApi-Redux-Thunk/static/css/main.1a784be9.css.map",
-    "main.e2bf694f.js.map": "/RestApi-Redux-Thunk/static/js/main.e2bf694f.js.map"
+    "main.css": "//harrypotter-4000.github.io/RestApi-Redux-Thunk/static/css/main.19ce54bf.css",
+    "main.js": "//harrypotter-4000.github.io/RestApi-Redux-Thunk/static/js/main.00f13f6e.js",
+    "index.html": "//harrypotter-4000.github.io/RestApi-Redux-Thunk/index.html",
+    "main.19ce54bf.css.map": "//harrypotter-4000.github.io/RestApi-Redux-Thunk/static/css/main.19ce54bf.css.map",
+    "main.00f13f6e.js.map": "//harrypotter-4000.github.io/RestApi-Redux-Thunk/static/js/main.00f13f6e.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a784be9.css",
-    "static/js/main.e2bf694f.js"
+    "static/css/main.19ce54bf.css",
+    "static/js/main.00f13f6e.js"
   ]
 }
