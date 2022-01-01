@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import UserItem from "./UserItem";
+import ModelCard from "../model/ModelCard";
 import styles from './CreateCard.module.css'
 import CreateUser from "./CreateUser";
 
@@ -13,7 +13,7 @@ export default function UserList() {
       <div className={styles.container}>
         {users.map(user => {
           return (
-            <UserItem
+            <ModelCard
               name={user.name}
               username={user.username}
               avatar={user.avatar}

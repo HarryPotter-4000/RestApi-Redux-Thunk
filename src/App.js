@@ -7,7 +7,6 @@ import {
 import './App.css';
 import Users from './pages/Users'
 import AddUser from './pages/AddUser'
-import Home from './pages/Home'
 import Header from './components/Header/Header'
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
         <Routes>
           <Route path="/adduser/" element={ <AddUser title='Add Users'/> } />
           <Route path="/users/" element={<Users title='Users' />} />
-          <Route path="/" element={ <Home title='Home Page'/> } />
         </Routes>
       </Router>
     </div>

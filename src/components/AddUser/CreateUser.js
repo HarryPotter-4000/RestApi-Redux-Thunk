@@ -14,6 +14,7 @@ export default function CreateUser() {
   const onCreateUser = (event) => {
     event.preventDefault();
 
+    
     const user = {
       name,
       username,

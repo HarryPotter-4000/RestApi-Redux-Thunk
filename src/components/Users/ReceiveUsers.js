@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import UserCard from './UserCard'
+import ModelCard from '../model/ModelCard'
 import styles from './Users.module.css'
 
 
@@ -22,7 +22,7 @@ function ReceiveUsers() {
     <div className={styles.container}>
       {users.map(user => {
         return (
-          <UserCard
+          <ModelCard
             avatar={user.avatar}
             name={user.name}
             username={user.username}

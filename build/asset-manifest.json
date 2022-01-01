@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a784be9.css",
-    "main.js": "/static/js/main.e2bf694f.js",
-    "index.html": "/index.html",
-    "main.1a784be9.css.map": "/static/css/main.1a784be9.css.map",
-    "main.e2bf694f.js.map": "/static/js/main.e2bf694f.js.map"
+    "main.css": "/RestApi-Redux-Thunk/static/css/main.1a784be9.css",
+    "main.js": "/RestApi-Redux-Thunk/static/js/main.e2bf694f.js",
+    "index.html": "/RestApi-Redux-Thunk/index.html",
+    "main.1a784be9.css.map": "/RestApi-Redux-Thunk/static/css/main.1a784be9.css.map",
+    "main.e2bf694f.js.map": "/RestApi-Redux-Thunk/static/js/main.e2bf694f.js.map"
   },
   "entrypoints": [
     "static/css/main.1a784be9.css",
