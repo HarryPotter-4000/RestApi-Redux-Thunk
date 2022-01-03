@@ -1,9 +1,9 @@
-import ReceiveUsers from '../components/Users/ReceiveUsers';
+import GetUsers from '../components/Users/GetUsers';
 
 function Users() {
   return (
     <div>
-      <ReceiveUsers />
+      <GetUsers />
     </div>
   );
 }

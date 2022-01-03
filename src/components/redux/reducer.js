@@ -1,4 +1,4 @@
-import { ADD_USER, POST_USER } from "./actions";
+import { SHOW_USERS, CREATE_USER } from "./actions";
 
 const initialState = {
     users: [],
@@ -6,11 +6,9 @@ const initialState = {
 
 export const reducer = (state = initialState, action) => {
     switch (action.type) {
-        case ADD_USER:
-            return {
-                users: [...state.users, action.payload],
-            }
-        case POST_USER:
+        case SHOW_USERS:
+            return { ...state, users: action.payload.data }
+        case CREATE_USER:
             return {
                 users: [action.payload, ...state.users],
             }
