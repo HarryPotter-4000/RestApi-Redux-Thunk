@@ -29,13 +29,13 @@ export default function CreateUser() {
       <form className={styles.form__container} onSubmit={onCreateUser}>
       <input className={styles.input}
         type="name"
-        placeholder="User name, more then 2 symbols"
+        placeholder="User name, more than 2 symbols"
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
       <input className={styles.input}
         type="username"
-        placeholder="@User nickname, more then 2 symbols "
+        placeholder="@User nickname, more than 2 symbols "
         value={username}
         onChange={(e) => {
           if (e.target.value[0] === '@') {
